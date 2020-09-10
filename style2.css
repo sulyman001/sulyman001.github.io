@@ -1,0 +1,26 @@
+body{
+    height: 100%;
+}
+header{
+    padding: 0px 0px 5px 0px;
+}
+.nav{
+    background-color: red;
+    overflow: hidden;
+}
+.nav a{
+    float: right;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.nav a:hover{
+    background-color: white;
+    color: red;
+}
+.nav a.active{
+    background-color: white;
+    color: red;
+}
